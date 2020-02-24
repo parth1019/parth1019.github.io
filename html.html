@@ -16,56 +16,87 @@
 </center>
 <p id="htm">&nbsp;</p>
 <ol>
-	<li>&lt;!DOCTYPE&gt; tag - This tag defines the document type.</li>
-	<li>&lt;html&gt; tag - This tag is used to define HTML document.</li>
-	<li>&lt;head&gt; tag - This tag is used to define header for the HTML document. Title and Internal CSS lies inside this tag.</li>
-	<li>&lt;title&gt; tag - This tag is used to define title for the HTML document.</li>
-	<li>&lt;body&gt; tag - This tag is used to define Body of the HTML document. Almost everything lies inside this tag. </li>
-	<li>&lt;p&gt; tag- This tag is used to define paragraph for the HTML document.</li>
-	<li>&lt;h1&gt; tag - This tag is used to define biggest heading inside the HTML document.</li>
-	<li>&lt;h2&gt; tag - This tag is used to define 2nd biggest heading.</li>
-	<li>&lt;h3&gt; tag - This tag is used to define 3rd biggest heading.</li>
-	<li>&lt;h4&gt; tag - This tag is used to define 4th biggest heading.</li>
-	<li>&lt;h5&gt; tag - This tag is used to define 5th biggest heading.</li>
-	<li>&lt;h6&gt; tag - This tag is used to define smallest heading.</li>
-	<li>&lt;style&gt; tag - This tag is used to define internal CSS for any element inside the HTML document.</li>
-	<li>&lt;br&gt; tag - This is an empty tag (empty tags don't need to be closed) and is used to insert a line break.</li>
-	<li>&lt;hr&gt; tag - This tag is used to insert horizontal line.</li>
-	<li>&lt;ul&gt; tag - This tag is used to insert unordered list.</li>
-	<li>&lt;ol&gt; tag - This tag is used to insert ordered list.</li>
-	<li>&lt;li&gt; tag - This tag is used to insert list inside &lt;ul&gt; or &lt;ol&gt; tag.</li>
-	<li>&lt;strong&gt; tag - This tag is used to make the text inside it<strong> bold </strong>and gives importance to the text.</li>
-	<li>&lt;b&gt; tag - This tag is used to make the text inside it<strong> bold </strong>but doesn't give importance to the text.</li>
-	<li>&lt;i&gt; tag - This tag is used to make the text inside it <em>italic.</em></li>
-	<li>&lt;u&gt; tag - This tag is used to <u>underline</u> the text inside it.</li>
-	<li>&lt;!--XXX --&gt; - This tag is used to insert comment.</li>
-	<li>&lt;abbr&gt; tag - This tag defines an abbreviation.</li>
-	<li>&lt;center&gt; - This tag aligns all elements inside it to the center.</li>
-	<li>&lt;del&gt; - This tag defines text that has been <del>deleted </del>from the document.</li>
-	<li>&lt;ins&gt; - This tag defines text that has been <ins>inserted</ins> into a document.</li>
-	<li>&lt;mark&gt; - This tag <mark>highlights</mark> text.</li>
-	<li>&lt;pre&gt; - This tag defines preformatted text.</li>
-	<li>&lt;q&gt; - This tag defines quotation.</li>
-	<li>&lt;sub&gt; - This tag defines <sub>subscripted</sub> text.</li>
-	<li>&lt;sup&gt; - This tag defines <sup>superscripted</sup> text.</li>
-	<li>&lt;time&gt; - This tag defines a date/time.</li>
-	<li>&lt;form&gt; - This tag defines an HTML form for user input.</li>
-	<li>&lt;input&gt; - This tag defines an input control.</li>
-	<li>&lt;button&gt; - This tag defines a clickable button.</li>
-	<li>&lt;textarea&gt; - This tag defines a multiple line input control.</li>
-	<li>&lt;option&gt; - This tag defines an option in a drop-down list.</li>
-	<li>&lt;iframe&gt; - This tag defines an inline frame.</li>
-	<li>&lt;img&gt; - This tag defines an image.</li>
-	<li>&lt;map&gt; - This tag defines an user side image-map.</li>
-	<li>&lt;area&gt; - This tag defines an area inside an image-map.</li>
-	<li>&lt;a&gt; - This tag defines a hyperlink.</li>
-	<li>&lt;table&gt; - This tag defines a table.</li>
-	<li>&lt;caption&gt; - This tag defines a table caption,</li>
-	<li>&lt;th&gt; - This tag defines table header cell.</li>
-	<li>&lt;tr&gt; - This tag defines a row in a table.</li>
-	<li>&lt;td&gt; - This tag defines a cell in a table.</li>
-	<li>&lt;meta&gt; - This tag defines metadata of the HTML document.</li>
-	<li>&lt;footer&gt; - This tag defines a footer for the document.</li>
-</ol>
+<li><ul><a href="#DS" style="color: black;"><li>Document Summary</li></a><a href="#DI" style="color: black;"><li>Document Information</li></a></ul></li>
+<li><ul><a href="#DS1" style="color: black;"><li>Document Structure</li></a><a href="#TF" style="color: black;"><li>Text Formatting</li></a></ul></li>
+<li><ul><a href="#L" style="color: black;"><li>Links</li></a><a href="#I" style="color: black;"><li>Images</li></a></ul></li>
+<li><ul><li>Lists</li><li>Forms</li></ul></li> 
+<li><ul><li>Table Formatting</li><li>Object and iFrames</li><li>iFrame Attributes</li></ul></li>
+<li><ul><li>Embed Attributes</li><li>HTML5 New Tags</li><li>Collective Character Objects</li></ul></li></ol>
+<br><br><br><br><br><br><br>
+<h3 style="text-align: center; background-color: gray;" id="DS">Document Summary</h3>
+<ul style="list-style-type: disc;">
+	<li style="color: rgb(252, 94, 36);">< html >...< /html ><br><p>This tag specifies that the webpage is written in HTML. It appears at the very first and last line of the webpage. It is mainly used to show that the page uses HTML5 – the latest version of the language. Also known as the root element, this tag can be thought of as a parent tag for every other tag used in the page.</p></li>
+	<li style="color: rgb(252, 94, 36);">< head >...< /head ><br><p>This tag is used to specify meta data about the webpage. It includes the webpage’s name, its dependencies (JS and CSS scripts), font usage etc.</p></li>
+	<li style="color: rgb(252, 94, 36);">< title >...< /title ><br><p>As the name suggests, this tag contains the title/name of the webpage. You can see this in your browser’s title bar for every webpage open in the browser. Search engines use this tag to extract the topic of the webpage, which is quite convenient when ranking relevant search results.</p></li>
+	<li style="color: rgb(252, 94, 36);">< body >...< /body ><br><p>Everything the user sees on a webpage is written inside this tag. It is a container for all the contents of the webpage.</p></li>
+</ul>
+
+<h3 style="text-align: center; background-color: gray;" id="DI">Document Information</h3>
+<ul style="list-style-type: disc;">
+	<li style="color: rgb(252, 94, 36);">< base/ ><br><p>Used to specify the base URL of your site, this tag makes linking to internal links on your site cleaner.</p></li>
+    <li style="color: rgb(252, 94, 36);">< meta/ ><br><p>This is the meta data tag for the webpage. Can be useful for mentioning the page’s author, keywords, original published date etc.</p></li>
+	<li style="color: rgb(252, 94, 36);">< link/ ><br><p> This is used to link to scripts external to the webpage. Typically utilized for including stylesheets.</p></li>
+    <li style="color: rgb(252, 94, 36);">< style >...< / style ><br><p>The style tag can be used as an alternative to an external style sheet, or complement it. Includes the webpage’s appearance information.</p></li>
+	<li style="color: rgb(252, 94, 36);">< script >...< /script ><br><p>Used to add code snippets, typically in JavaScript, to make webpage dynamic. It can also be used to just link to an external script.</p></li>
+</ul>
+
+<h3 style="text-align: center; background-color: gray;" id="DS1">Document Structure</h3>
+<ul style="list-style-type: disc;">
+	<li style="color: rgb(252, 94, 36);">< h1..h6>...< /h1..h6><br><p>Six different variations of writing a heading. < h1> has the largest font size, while < h6> has the smallest.</p></li>
+	<li style="color: rgb(252, 94, 36);">< div >...< /div><br><p>A webpage’s content is usually divided into blocks, specified by the div tag.</p></li>
+	<li style="color: rgb(252, 94, 36);">< span >...< /span ><br><p>This tag injects inline elements, like an image, icon, emoticon without ruining the formatting / styling of the page.</p></li>
+	<li style="color: rgb(252, 94, 36);">< p >...< /p ><br><p>Plain text is placed inside this tag.</p></li>
+	<li style="color: rgb(252, 94, 36);">< br/ ><br><p> A line break for webpages. Is used when wanting to write a new line.</p></li>
+	<li style="color: rgb(252, 94, 36);">< hr/ ><br><p>  Similar to the above tag. But in addition to switching to the next line, this tag also draws a horizontal bar to indicate the end of the section.</p></li>
+</ul>
+
+<h3 style="text-align: center; background-color: gray;" id="TF">Text Formatting</h3>
+<ul style="list-style-type: disc;">
+	<li style="color: rgb(252, 94, 36);">< strong>...< /strong><br><p>Makes text bold. Used to emphasize a point</p></li>
+	<li style="color: rgb(252, 94, 36);">< b >...< /b><br><p>Alternative to the above tag, also creates bold text.</p></li>
+	<li style="color: rgb(252, 94, 36);">< em >...< /em ><br><p>Another emphasis tag, but this displays text in italics.</p></li>
+	<li style="color: rgb(252, 94, 36);">< i >...< /i ><br><p>Also used to display text in italics, but does not emphasize it like the above tag</p></li>
+	<li style="color: rgb(252, 94, 36);">< tt >...< /tt ><br><p>Formatting for typewriter-like text. No longer supported in HTML5.</p></li>
+	<li style="color: rgb(252, 94, 36);">< strike >...< /strike ><br><p>Another old tag, this is used to draw a line at the center of the text, so as to make it appear unimportant or no longer useful.</p></li>
+	<li style="color: rgb(252, 94, 36);">< cite >...< /cite ><br><p>Tag for citing author of a quote.</p></li>
+	<li style="color: rgb(252, 94, 36);">< del >...< /del ><br><p>Pre-formatted, ‘monospace’ text laid out with whitespace inside the element intact.</p></li>
+	<li style="color: rgb(252, 94, 36);">< ins >...< /ins ><br><p>Denotes text that has been inserted intothe webpage.</p></li>
+	<li style="color: rgb(252, 94, 36);">< blockquote >...< /blockquote ><br><p>Quotes often go into this tag. Is used in tandem withthe < cite > tag.</p></li>
+	<li style="color: rgb(252, 94, 36);">< q >...< /q ><br><p>Similar to the above tag, but for shorter quotes.</p></li>
+	<li style="color: rgb(252, 94, 36);">< abbr >...< /abbr ><br><p>Denotes abbreviations, along with the full forms.</p></li>
+	<li style="color: rgb(252, 94, 36);">< acronym >...< /acronym ><br><p>Tag for acronyms. No HTML5 support.</p></li>
+	<li style="color: rgb(252, 94, 36);">< address >...< /address ><br><p>Tag for specifying author’s contact details.</p></li>
+	<li style="color: rgb(252, 94, 36);">< dfn >...< /dfn ><br><p>Tag dedicated for definitions.</p></li>
+	<li style="color: rgb(252, 94, 36);">< code >...< /code ><br><p>This is used to display code snippets withina paragraph.</p></li>
+	<li style="color: rgb(252, 94, 36);">< sub >...< /sub ><br><p>Used for writing a subscript (smaller font justbelow the mid-point of normal font). Example: ax</p></li>
+	<li style="color: rgb(252, 94, 36);">< sup >...< /sup ><br><p>Similar to the above tag, but for superscripting.</p></li>
+	<li style="color: rgb(252, 94, 36);">< small >...< /small ><br><p>Reduces text size. In HTML5, it often refers to redundant or invalid information.</p></li>
+</ul>
+
+<h3 style="text-align: center; background-color: gray;" id="L">Links</h3>
+<ul style="list-style-type: disc;">
+	<li style="color: rgb(252, 94, 36);">< a href=””> … < /a ><br><p>Anchor tag. Primarily used for includinghyperlinks.</p></li>
+	<li style="color: rgb(252, 94, 36);">< a href=”mailto:”> … < /a ><br><p>Tag dedicated to sending emails.</p></li>
+	<li style="color: rgb(252, 94, 36);">< a href=”tel://###-###”> … < /a ><br><p>Anchor tag for mentioning contact numbers. As the numbers are clickable, this can be particularly beneficial for mobile users.</p></li>
+	<li style="color: rgb(252, 94, 36);">< a name=”name”> … < /a ><br><p>This tag can be used to quickly navigate toa different part of the webpage.</p></li>
+	<li style="color: rgb(252, 94, 36);">< a href=”#name”> … < /a ><br><p> A variation of the above tag, this is only meantto navigate to a div section of the webpage.</p></li>
+</ul>
+
+<h3 style="text-align: center; background-color: gray;" id="I">Images</h3>
+<ul style="list-style-type: disc;">
+	<li style="color: rgb(252, 94, 36);">< img/><br><p>A tag to display images in the webpage.</p></li>
+	<li style="color: rgb(252, 94, 36);">src = "url"<br><p>The URL or path where the image is located onyour drive or on the web.</p></li>
+	<li style="color: rgb(252, 94, 36);">alt  = "text"<br><p>The text written here is displayed when user hovers mouse over the image. Can be used to give additional details of the image.</p></li>
+	<li style="color: rgb(252, 94, 36);">heiht = ""<br><p>Specifies image height in pixels or percentages.</p></li>
+	<li style="color: rgb(252, 94, 36);">width = ""<br><p>Specifies image width in pixels or percentages.</p></li>
+	<li style="color: rgb(252, 94, 36);">align = ""<br><p>The relative alignment of the image. Can change with changes to other elements in the webpage.</p></li>
+	<li style="color: rgb(252, 94, 36);">border = ""<br><p>Specifies border thickness of the image. If not mentioned, defaults to 0.</p></li>
+	<li style="color: rgb(252, 94, 36);">< map >...< /map ><br><p>Denotes an interactive (clickable) image.</p></li>
+	<li style="color: rgb(252, 94, 36);">< map name = "" >...< /map ><br><p>Name of the map associated between the image and the map.</p></li>
+	<li style="color: rgb(252, 94, 36);">< area/><br><p>Specifies image map area.</p></li>
+	<li style="color: rgb(252, 94, 36);">shape = ""<br><p>Shape of the area.</p></li>
+	<li style="color: rgb(252, 94, 36);">coords  = ""<br><p>Coordinates of the vital information of the shape.Example: vertices for rectangles, center/radius for circles.</p></li>
+	</ul>
+
 </body>
 </html>
