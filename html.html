@@ -19,9 +19,8 @@
 <li><ul><a href="#DS" style="color: black;"><li>Document Summary</li></a><a href="#DI" style="color: black;"><li>Document Information</li></a></ul></li>
 <li><ul><a href="#DS1" style="color: black;"><li>Document Structure</li></a><a href="#TF" style="color: black;"><li>Text Formatting</li></a></ul></li>
 <li><ul><a href="#L" style="color: black;"><li>Links</li></a><a href="#I" style="color: black;"><li>Images</li></a></ul></li>
-<li><ul><li>Lists</li><li>Forms</li></ul></li> 
-<li><ul><li>Table Formatting</li><li>Object and iFrames</li><li>iFrame Attributes</li></ul></li>
-<li><ul><li>Embed Attributes</li><li>HTML5 New Tags</li><li>Collective Character Objects</li></ul></li></ol>
+<li><ul><a href="#L1" style="color: black;"><li>Lists</li></a><a href="#F" style="color: black;"><li>Forms</li></a></ul></li> 
+<li><ul><a href="#TF1" style="color: black;"><li>Table Formatting</li></a><a href="#OF" style="color: black;"><li>Object and iFrames</li></a><a href="#FA" style="color: black;"><li>iFrame Attributes</li></a></ul></li>
 <br><br><br><br><br><br><br>
 <h3 style="text-align: center; background-color: gray;" id="DS">Document Summary</h3>
 <ul style="list-style-type: disc;">
@@ -75,7 +74,7 @@
 
 <h3 style="text-align: center; background-color: gray;" id="L">Links</h3>
 <ul style="list-style-type: disc;">
-	<li style="color: rgb(252, 94, 36);">< a href=””> … < /a ><br><p>Anchor tag. Primarily used for includinghyperlinks.</p></li>
+	<li style="color: rgb(252, 94, 36);">< a href=””> … < /a ><br><p>Anchor tag. Primarily used for including hyperlinks.</p></li>
 	<li style="color: rgb(252, 94, 36);">< a href=”mailto:”> … < /a ><br><p>Tag dedicated to sending emails.</p></li>
 	<li style="color: rgb(252, 94, 36);">< a href=”tel://###-###”> … < /a ><br><p>Anchor tag for mentioning contact numbers. As the numbers are clickable, this can be particularly beneficial for mobile users.</p></li>
 	<li style="color: rgb(252, 94, 36);">< a name=”name”> … < /a ><br><p>This tag can be used to quickly navigate toa different part of the webpage.</p></li>
@@ -96,7 +95,66 @@
 	<li style="color: rgb(252, 94, 36);">< area/><br><p>Specifies image map area.</p></li>
 	<li style="color: rgb(252, 94, 36);">shape = ""<br><p>Shape of the area.</p></li>
 	<li style="color: rgb(252, 94, 36);">coords  = ""<br><p>Coordinates of the vital information of the shape.Example: vertices for rectangles, center/radius for circles.</p></li>
-	</ul>
+</ul>
 
+<h3 style="text-align: center; background-color: gray;" id="L1">Lists</h3>
+<ul style="list-style-type: disc;">
+	<li style="color: rgb(252, 94, 36);">< ol > … < /ol ><br><p>Tag for ordered or numbered list of items.</p></li>
+	<li style="color: rgb(252, 94, 36);">< ul > … < /ul ><br><p>Contrary to the above tag, used for unordered list of items.</p></li>
+	<li style="color: rgb(252, 94, 36);">< li > … < /li ><br><p>Individual item as part of a list.</p></li>
+	<li style="color: rgb(252, 94, 36);">< dl > … < /dl ><br><p>Tag for list of items with definitions.</p></li>
+	<li style="color: rgb(252, 94, 36);">< dt > … < /dt ><br><p>The definition of a single term inline with body content.</p></li>
+	<li style="color: rgb(252, 94, 36);">< dd > … < /dd ><br><p>The description for the defined term.</p></li>
+</ul>
+
+<h3 style="text-align: center; background-color: gray;" id="F">Forms</h3>
+<ul style="list-style-type: disc;">
+	<li style="color: rgb(252, 94, 36);">< form >...< /form ><br><p>The parent tag for an HTML Form.</p></li>
+	<li style="color: rgb(252, 94, 36);">action = "url"<br><p>The URL listed here is where the form data will be submitted once user fills it.</p></li>
+	<li style="color: rgb(252, 94, 36);">method  = ""<br><p>It specifies which HTTP method (POST or GET) would be used to submit the form.</p></li>
+	<li style="color: rgb(252, 94, 36);">enctype = ""<br><p>Only for POST method, this dictates the data encoding scheme to be used when form is submitted.</p></li>
+	<li style="color: rgb(252, 94, 36);">autocomplete<br><p>Determines if the form has auto-complete enabled.</p></li>
+	<li style="color: rgb(252, 94, 36);">novalidate<br><p>Determines whether the form should be validated before submission.</p></li>
+	<li style="color: rgb(252, 94, 36);">accept-charsets<br><p>Determines character encodings when form is submitted.</p></li>
+	<li style="color: rgb(252, 94, 36);">target<br><p>After submission, the form response is displayed wherever this refers to, usually has the following values: _blank, _self, _parent, _top</p></li>
+	<li style="color: rgb(252, 94, 36);">< map name = "" >...< /map ><br><p>Identifies the group of all fields on the form.</p></li>
+	<li style="color: rgb(252, 94, 36);">< fieldset >...< /fieldset ><br><p>This is used to label a field in the form.</p></li>
+	<li style="color: rgb(252, 94, 36);">< label >...< /label ><br><p>This operates as a caption for the < fieldset >element</p></li>
+	<li style="color: rgb(252, 94, 36);">< input/><br><p>This tag is used to take input from the user. Input type is determined by a number of attributes.</p></li>
+</ul>
+
+<h3 style="text-align: center; background-color: gray;" id="TF1">Table Formatting</h3>
+<ul style="list-style-type: disc;">
+	<li style="color: rgb(252, 94, 36);">< table >...< /table ><br><p>Marks a table in a webpage.</p></li>
+	<li style="color: rgb(252, 94, 36);">< caption >...< /caption ><br><p>Description of the table is placed inside this tag</p></li>
+	<li style="color: rgb(252, 94, 36);">< thead >...< /thead ><br><p>Specifies information pertaining to specific columns of the table.</p></li>
+	<li style="color: rgb(252, 94, 36);">< tbody >...< /tbody ><br><p>The body of a table, where the data is held.</p></li>
+	<li style="color: rgb(252, 94, 36);">< tfoot >...< /tfoot ><br><p>Determines the footer of the table.</p></li>
+	<li style="color: rgb(252, 94, 36);">< tr >...< /tr ><br><p>Denotes a single row in a table.</p></li>
+	<li style="color: rgb(252, 94, 36);">< th >...< /th ><br><p>The value of a heading of a table’s column.</p></li>
+	<li style="color: rgb(252, 94, 36);">< td >...< /td ><br><p>A single cell of a table. Contains the actual value/data</p></li>
+	<li style="color: rgb(252, 94, 36);">< colgroup >...< /colgroup ><br><p>Used for grouping columns togethe</p></li>
+	<li style="color: rgb(252, 94, 36);">< col >...< /col ><br><p>Denotes a column inside a table.</p></li>
+</ul>
+
+<h3 style="text-align: center; background-color: gray;" id="OF">Object and iFrames</h3>
+<ul style="list-style-type: disc;">
+	<li style="color: rgb(252, 94, 36);">< object > … < /object ><br><p>This tag is used to embed additional multimedia intoa webpage. Can be audio, video, document (pdf) etc.</p></li>
+	<li style="color: rgb(252, 94, 36);">height  = ""<br><p>Determines object height in pixel values.</p></li>
+	<li style="color: rgb(252, 94, 36);">width  = ""<br><p>Determines object width in pixel values</p></li>
+	<li style="color: rgb(252, 94, 36);">type = ""<br><p>Determines object width in pixel values</p></li>
+	<li style="color: rgb(252, 94, 36);">< iframe > … < /iframe ><br><p> An inline block of content, this is used as a container for multimedia in a flexible manner. It floats inside a webpage, meaning it is placed relative to other webpage items.</p></li>
+</ul>
+
+<h3 style="text-align: center; background-color: gray;" id="FA">iFrame Attributes</h3>
+<ul style="list-style-type: disc;">
+	<li style="color: rgb(252, 94, 36);">name  = ""<br><p>The name of the iFrame.</p></li>
+	<li style="color: rgb(252, 94, 36);">src  = ""<br><p>The source URL/path of the multimedia object to be held inside the iFrame.</p></li>
+	<li style="color: rgb(252, 94, 36);">srcdoc = ""<br><p>Any HTML content to be displayed inside the iFrame.</p></li>
+	<li style="color: rgb(252, 94, 36);">height  = ""<br><p>Determines the height of the iFrame.</p></li>
+	<li style="color: rgb(252, 94, 36);">width  = ""<br><p>Determines the width of the iFrame</p></li>
+	<li style="color: rgb(252, 94, 36);">< param/ ><br><p>For iFrame customization. This includes additional parameters to go along with the content.</p></li>
+	<li style="color: rgb(252, 94, 36);">< embed >...< /embed ><br><p>This is used to embed external objects, like plugins (e.g. a flash video).</p></li>
+</ul>
 </body>
 </html>
