@@ -88,7 +88,23 @@
       "date": ""
     }
   ],
-  "publications": [],
+  "publications": [
+{
+"title": "IIIT Kota Website",
+"details": "Build IIIT Kota Website Using MERN.",
+"link": "https://iiitkota.ac.in/"
+},
+{
+"title": "e-Learning And Data Analytics Lab",
+"details": "Build e-Learning And Data Analytics Lab Website Using MERN.",
+"link": "https://eldalab.in"
+},
+{
+"title": "Crypto & Stock Prediction Whatsapp ChatBot",
+"details": "Predicting Stock price via Whatsapp Chatbot,",
+"link": "https://github.com/thegauravparmar/Stock_Crypto_Whatsapp_Bot"
+}
+],
   "skills": [
     {
       "name": "Full Stack Development",
