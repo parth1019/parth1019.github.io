@@ -81,13 +81,6 @@
       ]
     }
   ],
-  "awards": [
-    {
-      "title": "",
-      "awarder": "",
-      "date": ""
-    }
-  ],
   "publications": [
 {
 "title": "IIIT Kota Website",
@@ -132,10 +125,8 @@
   ],
   "interests": [
     {
-      "name": "Dancing",
-      "keywords": [
-        ""
-      ]
+      "name": "Dancing"
+      
     },
     {
       "name": "Playing",
